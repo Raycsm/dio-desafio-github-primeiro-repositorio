@@ -1,0 +1,25 @@
+Clonar com https: git clone <https://link-com-o-nome-do-repositório>
+
+Criar uma branch: git branch <nome-da-branch>
+
+Criará uma branch em seu local de trabalho: git push -u <local-remoto> <nome-da-branch>
+
+Ver as branches: git branch ou git branch --list
+
+Excluir uma branch: git branch -d <nome-da-branch>
+
+Trocar de uma branch para outra: git checkout <nome-da-branch>
+
+Dá todas as informações necessárias sobre a branch atual: git status
+
+Para adicionar um único arquivo: git add <arquivo>
+
+Para adicionar tudo ao mesmo tempo: git add -A
+
+Escrever uma mensagem breve para explicar o que desenvolvemos ou alteramos no código-fonte: git commit -m "mensagem do commit"
+
+Faz upload dos seus commits no repositório remoto: git push <repositório-remoto> <nome-da-branch>
+
+Obter as atualizações de um repositório remoto: git pull <repositório-remoto>
+
+Uma maneira segura de desfazer nossos commits: git revert <codigo hash>
